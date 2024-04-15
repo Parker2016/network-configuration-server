@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modify Network Settings</title>
+</head>
+<body>
+    <h2>Modify Network Settings</h2>
+    <form method="post" action="/update_network_settings">
+        <label for="ip">IP Address:</label><br>
+        <input type="text" id="ip" name="ip"><br><br>
+        <label for="subnet_mask">Subnet Mask(1~32):</label><br>
+        <input type="text" id="subnet_mask" name="subnet_mask"><br><br>
+        <label for="gateway">Gateway:</label><br>
+        <input type="text" id="gateway" name="gateway"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
